@@ -34,7 +34,7 @@ func setupRoutes() {
 }
 
 func main() {
-	fmt.Println("Rique chat procject")
+	fmt.Println("Rique chat project")
 	setupRoutes()
 	http.ListenAndServe(":8080", nil)
 }
